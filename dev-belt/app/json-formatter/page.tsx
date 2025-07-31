@@ -18,7 +18,7 @@ export default function UrlEncoderPage() {
     setCopyText('Copy Result'); // Reset copy button text
     try {
       setOutput(encodeURIComponent(input));
-    } catch (e) {
+    } catch (_e) {
       setError('Could not encode the input.');
     }
   };
@@ -28,7 +28,7 @@ export default function UrlEncoderPage() {
     setCopyText('Copy Result'); // Reset copy button text
     try {
       setOutput(decodeURIComponent(input));
-    } catch (e) {
+    } catch (_e) {
       setError('Could not decode the input. It may not be a valid URL component.');
     }
   };

@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Code, Binary, Link2 } from 'lucide-react';
 
-// We define the tools in an array to make them easy to manage.
 const tools = [
   {
     href: "/json-formatter",
@@ -23,23 +22,20 @@ const tools = [
     description: "Encode and decode special characters in URLs.",
     icon: <Link2 className="h-8 w-8 text-purple-500" />
   }
-  // To add a new tool, just add a new object here.
 ];
 
 export default function HomePage() {
   return (
     <div className="w-full">
-      {/* Hero Section */}
       <section className="text-center mb-12">
         <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
-          The Developer's Utility Toolbox
+          The Developer&apos;s Utility Toolbox
         </h1>
         <p className="mt-4 text-lg text-muted-foreground">
           A collection of simple, fast, and free online tools to make your development workflow easier.
         </p>
       </section>
 
-      {/* Tools Grid Section */}
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {tools.map((tool) => (
           <Link href={tool.href} key={tool.title} passHref>

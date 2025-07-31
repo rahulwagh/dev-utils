@@ -16,7 +16,7 @@ export default function Base64Page() {
     try {
       const encoded = btoa(unescape(encodeURIComponent(input)));
       setOutput(encoded);
-    } catch (e) {
+    } catch (_e) {
       setError('Could not encode the input.');
     }
   };
@@ -26,7 +26,7 @@ export default function Base64Page() {
     try {
       const decoded = decodeURIComponent(escape(atob(input)));
       setOutput(decoded);
-    } catch (e) {
+    } catch (_e) {
       setError('Invalid Base64 string.');
     }
   };
