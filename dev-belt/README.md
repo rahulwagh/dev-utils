@@ -1,18 +1,29 @@
 # 🚀 Dev-Belt: Your All-in-One Developer Utility Toolbox
 
-A clean, fast, and simple web-based toolbox for developers and students. Built with modern technology for a great user experience, providing common utilities like formatters, converters, and generators right in your browser.
+A free, fast, and simple web-based toolbox for developers and students. Dev-Belt provides a collection of essential online utilities, including a JSON Formatter and Validator, a Base64 Encoder and Decoder, a URL Encoder and Decoder, and much more. All tools are designed to be intuitive and work directly in your browser.
 
-**Live Demo:** [Link to your deployed site will go here]
+**Live Demo:** [https://dev-utils-4n1wuiw62-rahul-waghs-projects-4398d4e5.vercel.app/](https://dev-utils-4n1wuiw62-rahul-waghs-projects-4398d4e5.vercel.app/)
 
 ---
 ## ✨ Features
 
-- **JSON Formatter & Validator**: Beautify and validate JSON objects.
-- **Base64 Encoder/Decoder**: Easily encode and decode Base64 strings.
-- **URL Encoder/Decoder**: Handle special characters in URLs.
-- **JWT Debugger**: Decode and inspect JSON Web Tokens.
-- **Unix Timestamp Converter**: Convert between Unix timestamps and human-readable dates.
-- ... and more to come!
+Our goal is to provide a comprehensive suite of tools that developers use every day.
+
+### ### JSON Formatter & Validator
+- **Beautify & Pretty-Print JSON:** Instantly format your messy JSON data into a clean, human-readable structure with proper indentation.
+- **Validate & Debug:** Quickly find and fix syntax errors. The tool highlights issues directly, helping you debug invalid JSON.
+- **Client-Side Processing:** Your data is processed securely in your browser and is never sent to a server.
+
+### ### Base64 Encoder & Decoder
+- **Encode to Base64:** Convert any text or string data into a Base64 encoded format for safe transmission in URLs or other text-based mediums.
+- **Decode from Base64:** Instantly decode a Base64 string back to its original human-readable format.
+- **Error Handling:** The tool validates the input to ensure it is a valid Base64 string before attempting to decode.
+
+### ### URL Encoder & Decoder
+- **Percent-Encoding:** Safely encode special characters (like `/`, `?`, `&`, `#`) in your URLs to ensure they are interpreted correctly by browsers and web servers.
+- **Decode URL Components:** Convert encoded URI components back into their original characters for easy reading and debugging.
+
+*More tools like a JWT Debugger and Unix Timestamp Converter are coming soon!*
 
 ---
 ## 🛠️ Tech Stack
