@@ -12,9 +12,14 @@ export function Sidebar() {
               JSON Formatter
             </Link>
           </li>
-          <li>
+          <li className="mb-2">
             <Link href="/base64" className="hover:text-blue-500">
               Base64 Encoder/Decoder
+            </Link>
+          </li>
+          <li>
+            <Link href="/url-encoder" className="hover:text-blue-500">
+              URL Encoder/Decoder
             </Link>
           </li>
         </ul>
