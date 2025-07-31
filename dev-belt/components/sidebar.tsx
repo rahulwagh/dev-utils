@@ -1,9 +1,18 @@
 // components/sidebar.tsx
 import Link from 'next/link';
+import { Logo } from './logo'; // Import the new Logo component
 
 export function Sidebar() {
   return (
-    <aside className="w-64 p-4 border-r">
+    <aside className="w-64 p-4 border-r flex flex-col">
+      {/* Logo at the top */}
+      <div className="mb-4">
+        <Logo />
+      </div>
+
+      <hr className="mb-4" />
+
+      {/* Tools List */}
       <h2 className="text-lg font-semibold mb-4">Tools</h2>
       <nav>
         <ul>
