@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@radix-ui/react-tabs": "^1.1.12",
+    "react-json-view": "^1.21.3"
+  }
+}
